@@ -1,0 +1,26 @@
+Package: scMEB
+Type: Package
+Title: scMEB: A fast and clustering-independent method for detecting 
+    differentially expressed genes in single-cell RNA-seq data
+Version: 0.1.0
+Authors@R: c(person("Jiadi Zhu", "Developer", role=c("aut","cre"),
+    email = "2160090406@email.szu.edu.cn"))
+Maintainer: Jiadi Zhu <2160090406@email.szu.edu.cn>
+Description: This package provides a novel and fast method for detecting 
+    single-cell DEGs without prior cell clustering results. The proposed 
+    method utilizes a small part of known non-DEGs (stably expressed genes) 
+    to build a minimum enclosing ball and defines the DEGs based on the 
+    distance of a mapped gene to the center of the hypersphere in a feature 
+    space. The method on this package is described in the article 'scMEB: 
+    A fast and clustering-independent method for detecting differentially 
+    expressed genes in single-cell RNA-seq data'.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: R (>= 4.2.0)
+Suggests: knitr,rmarkdown,BiocStyle
+VignetteBuilder: knitr
+Imports: e1071, edgeR, scater, stats, wrswoR, SingleCellExperiment
+biocViews: DifferentialExpression, GeneExpression, Normalization, 
+           Classification, Sequencing, SingleCell, Clustering
