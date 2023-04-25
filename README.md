@@ -18,7 +18,7 @@ devtools::install_github("FocusPaka/scMEB")
 
 # User's Guide
 Please refer to the 
-[vignetee](https://github.com/FocusPaka/MEB/blob/master/vignettes/scMEB.Rmd) 
+[vignetee](https://github.com/FocusPaka/scMEB/blob/main/vignettes/scMEB.Rmd) 
 for detailed function instructions.
 
 # Reference
